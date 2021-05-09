@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url(../images/mcgill.jpg);
+   
+  
+
+  }
+
+
+  a{
+    background-color:red;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 8px;
+    text-transform: uppercase;
+  
+  }
+
+
+  a:hover{
+    background-color: black;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    background: rgb(107, 6, 6);
+    opacity: 0.9;
+    color: white;
+    margin: 5px 0;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  header {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+
+
+
+    color: white;
+    background: rgb(196, 21, 21);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: black 6px solid;
+   
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-top: 120px;
+    
+    border: white solid 5px;
+  }
+  
+  #my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+    
+  }
+  
+  #my-form label {
+    display: block;
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+
+  .btn2{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .btn:hover {
+    background: maroon;
+  }
+  .btn2:hover {
+    background: red;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+
+
+  .shor{
+    float: right;
+    margin-top: 3px;
+    background-color: rgb(168, 30, 30);
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 2px;
+  }
+  #button{
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: navy;
+    color: #fff;
+    border-radius: 8px ;
+
+  }
